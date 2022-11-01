@@ -1,0 +1,58 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('./normlizes.css');
+body{
+  background-color: #eee !important;
+
+}
+p{
+  margin: 0 !important;
+}
+
+
+.font{
+  font-family: 'Almarai', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dates-angle{
+  background-color:#fff;
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #000;
+  
+}
+
+.btn-color{
+  background-color: rgba(19, 28, 58, 0.867) !important;
+  color: #fff !important;
+}
+
+.person{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  border-radius: 5px;
+  padding: 0.5rem !important;
+  margin: 0.5rem !important;
+}
+
+.person-image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.font-small{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
